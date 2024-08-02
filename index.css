@@ -1,0 +1,165 @@
+body {
+    background: #1B244A; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px
+}
+
+#title-guest{
+    /* board-title-home */
+    width: 149px;
+    height: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;    
+}
+
+#title-home{
+    /* board-title-home */
+    width: 149px;
+    height: 10px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;   
+}
+
+.box-square-home{
+    /* background */
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#score-home{
+    margin: 5.25px 5.25px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;    
+}
+
+.box-square-guest{
+    /* background */
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#score-guest{
+    margin: 5.25px 5.25px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;    
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* add-points-btns-home */
+
+#btn{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    color: #9AABD8;
+    box-sizing: border-box;
+}
+
+#reset{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    color: #9AABD8;
+    width: 200px;
+    height: 80px;
+    padding: 30px 5px;   
+}
+
+.res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
