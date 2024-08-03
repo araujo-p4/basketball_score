@@ -9,6 +9,23 @@ body {
     height: 450px
 }
 
+#title-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    
+    /* identical to box height, or 90% */
+    color: #EEEEEE; 
+}
+
 #title-guest{
     /* board-title-home */
     width: 149px;
